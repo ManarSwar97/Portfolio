@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+*{
+    margin: 0;
+    height: 0vh;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 15px 20px;
+}
+.header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 50px;
+    margin-right: 5%;
+}
+.header a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    color: #8156FF;
+    text-decoration: none;
+}
+.header a:hover{
+    color: #4a17e6;
+}
