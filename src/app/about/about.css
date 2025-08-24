@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.about-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px; 
+    max-width: 1200px;
+    width: 100%;
+    min-height: calc(100vh - 80px);
+    margin: 0 auto;
+
+}
+
+
+ .main-content h2{
+    font-size: 64px;
+    color: #8156FF;
+    font-family: 'Stick No Bills', sans-serif;
+    font-weight: 800;
+ }
+ .main-content p{
+    font-size: 24px;
+    color: #8156FF;
+    max-width: 500px;
+    line-height: 1.6;
+ }

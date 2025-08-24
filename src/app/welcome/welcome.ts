@@ -2,6 +2,7 @@ import { Component, OnInit, ViewChild, ElementRef, AfterViewInit } from '@angula
 
 @Component({
   selector: 'app-welcome',
+  standalone: true,
   templateUrl: './welcome.html',
   styleUrls: ['./welcome.css']
 })
