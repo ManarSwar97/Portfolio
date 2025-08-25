@@ -47,6 +47,6 @@ export class Welcome implements OnInit, AfterViewInit {
       this.textIndex = (this.textIndex + 1) % this.texts.length;
     }
 
-    setTimeout(() => this.type(), currentSpeed);
+    setTimeout(() => this.type(), currentSpeed)
   }
 }

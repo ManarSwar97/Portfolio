@@ -1,3 +1,20 @@
-<div class="project">
-    
+<div class="text-section">
+    <h2>Projects</h2>
+</div>
+
+<div class="whole-container">
+    <div class="container">
+        <div class="card" *ngFor="let project of projects">
+            <div class="img-container">
+                <img [src]="project.image" alt="{{ project.name }}" />
+            </div>
+            <div class="content">
+                <h3>{{ project.name }}</h3>
+                <p class="description">
+                    {{ project.description }}
+                </p>
+                <button class="action-btn">Check It Out!</button>
+            </div>
+        </div>
+    </div>
 </div>

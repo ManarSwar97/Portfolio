@@ -3,13 +3,14 @@ import { Welcome } from './welcome/welcome';
 import { About } from './about/about';
 import { NgModule } from '@angular/core';
 import { Experience } from './experience/experience';
+import { Projects } from './projects/projects';
 //adding routes for navbar to navigate between pages
 export const routes: Routes = [
     {path: '', redirectTo: 'welcome', pathMatch: 'full'},
     {path: 'welcome', component: Welcome},
     {path: 'about', component: About},
     {path: 'experience', component: Experience},
-
+    {path: 'projects', component: Projects},
     { path: '**', redirectTo: 'welcome', pathMatch: 'full' }
 ];
 @NgModule({
